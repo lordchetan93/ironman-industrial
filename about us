@@ -1,0 +1,37 @@
+<!-- About Us Section -->
+<section class="about" id="about">
+   <div class="container">
+       <h2 class="section-title">About Us</h2>
+       <div class="about-content">
+           <div class="about-text">
+               <p>
+                   Welcome to <strong>Beige – The Pop Up Store</strong>, where timeless elegance meets modern minimalism. We are a boutique brand dedicated to curating exclusive collections of fashion, lifestyle, and décor that celebrate the beauty of subtlety.
+               </p>
+               <p>
+                   Beige was born from the desire to create a space where design, purpose, and artistry converge. Our pop-up model allows us to collaborate with emerging creators, celebrate limited-edition finds, and offer our community something refreshingly unique with each collection.
+               </p>
+               <p>
+                   Sustainability, craftsmanship, and intention are at the heart of everything we do. Whether it's a handwoven garment or a hand-poured candle, each piece in our store tells a story — of the maker, the material, and the moment.
+               </p>
+           </div>
+           <div class="about-features">
+               <div class="feature-item">
+                   <span class="feature-icon">🌿</span>
+                   Ethically sourced and environmentally conscious products
+               </div>
+               <div class="feature-item">
+                   <span class="feature-icon">🎨</span>
+                   Collaborations with independent artisans and creators
+               </div>
+               <div class="feature-item">
+                   <span class="feature-icon">👜</span>
+                   Carefully curated seasonal collections
+               </div>
+               <div class="feature-item">
+                   <span class="feature-icon">✨</span>
+                   A shopping experience rooted in aesthetics and authenticity
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
