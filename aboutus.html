@@ -5,33 +5,87 @@
        <div class="about-content">
            <div class="about-text">
                <p>
-                   Welcome to <strong>Beige – The Pop Up Store</strong>, where timeless elegance meets modern minimalism. We are a boutique brand dedicated to curating exclusive collections of fashion, lifestyle, and décor that celebrate the beauty of subtlety.
+                   At <strong>Beige – The Pop-Up Store</strong>, we celebrate the charm of slow fashion and conscious living.
+                   Rooted in elegance and simplicity, our curated collections reflect timeless aesthetics blended with sustainable choices.
+                   Each pop-up is a carefully crafted experience that brings together unique brands, artisans, and like-minded creators.
                </p>
                <p>
-                   Beige was born from the desire to create a space where design, purpose, and artistry converge. Our pop-up model allows us to collaborate with emerging creators, celebrate limited-edition finds, and offer our community something refreshingly unique with each collection.
+                   We believe in mindful shopping and aim to create a space where quality and purpose meet. Whether it’s home decor, apparel, or lifestyle products – Beige offers thoughtfully chosen pieces that resonate with our ethos.
                </p>
                <p>
-                   Sustainability, craftsmanship, and intention are at the heart of everything we do. Whether it's a handwoven garment or a hand-poured candle, each piece in our store tells a story — of the maker, the material, and the moment.
+                   Step into a world of warmth, sophistication, and discovery. Welcome to Beige.
                </p>
            </div>
            <div class="about-features">
                <div class="feature-item">
-                   <span class="feature-icon">🌿</span>
-                   Ethically sourced and environmentally conscious products
+                   <span class="feature-icon">🌱</span>
+                   Sustainable and ethical products
                </div>
                <div class="feature-item">
-                   <span class="feature-icon">🎨</span>
-                   Collaborations with independent artisans and creators
+                   <span class="feature-icon">🧵</span>
+                   Artisanal craftsmanship and stories
                </div>
                <div class="feature-item">
-                   <span class="feature-icon">👜</span>
-                   Carefully curated seasonal collections
+                   <span class="feature-icon">🛍️</span>
+                   Curated pop-up experiences
                </div>
                <div class="feature-item">
-                   <span class="feature-icon">✨</span>
-                   A shopping experience rooted in aesthetics and authenticity
+                   <span class="feature-icon">🤝</span>
+                   Supporting local and independent brands
                </div>
            </div>
        </div>
    </div>
 </section>
+
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.about-text {
+    font-size: 1.15rem;
+    line-height: 1.85;
+    color: #5d4e37;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.about-text strong {
+    color: #8fac7e;
+    font-weight: 600;
+}
+
+.about-features {
+    background: linear-gradient(135deg, #f9f6f0, #f0ebe3);
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #5d4e37;
+}
+
+.feature-icon {
+    font-size: 1.6rem;
+    margin-right: 15px;
+    color: #8fac7e;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+}
